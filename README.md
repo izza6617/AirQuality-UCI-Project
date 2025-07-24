@@ -8,6 +8,14 @@ This project focuses on cleaning, transforming, and exploring the Air Quality UC
 - Total Records: 9,358 rows
 - Features: 15 attributes including CO, NOx, NMHC, Benzene, Temperature, and Humidity
 
+## 📂 Dataset
+
+The dataset used in this project is based on the [UCI Air Quality Dataset](https://archive.ics.uci.edu/ml/datasets/Air+Quality).
+
+➡️ You can download the dataset file directly from this repository:  
+[Download AirQualityUCI.xlsx](./AirQualityUCI.xlsx)
+
+
 ## 🧹 Preprocessing Steps
 - Replaced invalid readings (like -200) with NaN
 - Combined Date and Time into a single DateTime column
